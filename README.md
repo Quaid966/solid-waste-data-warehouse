@@ -28,6 +28,8 @@ The warehouse consists of 3 dimension tables and 1 fact table:
 - **`facttrips`** — Waste collection trips (Tripid, Dateid, Stationid, Truckid, Wastecollected)
 
 ### Entity-Relationship Model (ERD)
+![ERD Diagram](https://github.com/Quaid966/solid-waste-data-warehouse/blob/main/erd/ERD.png)
+
 Relationships are enforced via foreign keys.
 
 - `facttrips.dateid → dimdate.dateid`
